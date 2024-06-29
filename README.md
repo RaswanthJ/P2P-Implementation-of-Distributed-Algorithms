@@ -28,4 +28,11 @@ mation.
 cant performance degradation.
 5. Decentralization: No single node has complete control; instead, control and data
 are distributed across nodes.
-1
+
+Goals
+1. Single File Implementation: Implementing the Distributed Consensus Algorithm in a single file where all data is available in the same file.
+2. Multi File Implementation: Implementing the Distributed Consensus Algorithm in a same device where all data are in different files.
+3. Communication between Raspberry Pi: Establishing connection between two raspberry pi and Communicating between each other using different networking Protocols like UDP,TCP.
+4. Consensus using LAN connection: Implementing the Consensus Algorithm for raspberry pi by setting up each raspberry pi as a node. Every nodes are connected through each other using ethernet (LAN).
+5. Consensus using WiFi connection: Implementing the Consensus Algorithm for raspberry pi by setting up each raspberry pi as a node. Every nodes are connected through each other using internet. All raspberry pi are not required to be in the same network or LAN in this case.
+6. Single Raspberry Pi Control: The above algorithms are then implemented by only activating the coordinator node. The coordinator node sends the files to the nodes, runs them there, stores data for each iteration and sends them back to the coordinator.
